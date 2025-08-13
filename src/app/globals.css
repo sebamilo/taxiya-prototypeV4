@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* extras simples */
+body { @apply bg-gradient-to-b from-slate-50 to-white text-slate-900; }
+.btn { @apply inline-flex items-center justify-center px-4 py-2 rounded-2xl font-semibold hover:opacity-90 transition; }
+.btn-primary { @apply bg-indigo-600 text-white; }
+.btn-ghost { @apply text-indigo-700; }
+.card { @apply bg-white rounded-2xl shadow border border-slate-200; }
+.card-header { @apply px-5 pt-5 font-bold text-slate-900; }
+.card-body { @apply p-5 text-slate-600; }
