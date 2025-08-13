@@ -1,0 +1,1 @@
+export default function Pasajero(){return <div>Panel Pasajero</div>}

@@ -1,0 +1,1 @@
+export default function Taxista(){return <div>Panel Taxista</div>}
